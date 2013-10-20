@@ -168,6 +168,9 @@ background: #b08fc7;
 
 .btn.btn-download{
 	font-size:28px;
+	display:block;
+	margin:auto !important;
+	
 }
 
 .panel .panel-heading{
@@ -225,7 +228,7 @@ h1,h2,h3,h4,h5,h6,.page-title,.btn,.nav,input,.panel-title,.alert{
 }
 
 .navbar-default .navbar-nav>li>a:hover{
-	color:#bbb;
+	color:#d9c7e6;
 }
 
 .navbar-default .navbar-nav>li.active a,.navbar-default .navbar-nav>li.active a, .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus{
@@ -233,15 +236,20 @@ h1,h2,h3,h4,h5,h6,.page-title,.btn,.nav,input,.panel-title,.alert{
 	color:#fff;
 }
 .dropdown-menu,.dropdown-menu li a,.dropdown-menu li a{
-	background:rgba(0,0,0,.5) ;
+	//background:rgba(0,0,0,.5) ;
 	color:#fff !important;
+}
+.dropdown-menu{
+	background:#000;
+
 }
 .dropdown-menu li a:hover{
 	background:#000;
+	color:#d9c7e6;
 }
 .navbar-default .navbar-nav>li.active a:hover{
 	background:rgba(0,0,0,.5);
-	color:#bbb;
+	color:#fff;
 }
 .dropdown{
 	background:none;
@@ -319,6 +327,10 @@ hr,.page-header{
 @media (max-width:800px){
 	img{
 		max-width:100%;
+	}
+	.btn.btn-download{
+		max-width:90%;
+		font-size:25px;
 	}
 }
 
