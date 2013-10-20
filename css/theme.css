@@ -321,7 +321,9 @@ hr,.page-header{
 }
 
 
-
+a:hover{
+	text-decoration:none !important;
+}
 
 
 @media (max-width:800px){
