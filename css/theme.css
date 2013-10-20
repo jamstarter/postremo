@@ -60,6 +60,12 @@ filter: alpha(opacity=100);
 	font-size:1.2em;
 	background: #2E1E65;
 	border:0;
+	-o-transition: background 0.3s linear;
+-moz-transition: background 0.3s linear;
+-khtml-transition: background 0.3s linear;
+-webkit-transition: background 0.3s linear;
+-ms-transition: background 0.3s linear;
+transition: background 0.3s linear;
 }
 .btn:hover{
 	color:#fff;
@@ -73,21 +79,42 @@ filter: alpha(opacity=100);
 .btn.btn-primary,.panel-primary .panel-heading{
 	background: #586C96;
 }
+.btn.btn-primary:hover {
+background: #7ea1ea;
+}
 .btn.btn-warning,.panel-warning .panel-heading{
 	background: #F0D49D;
 	color:#926E27 !important;
 }
+.btn.btn-warning:hover {
+background: #efc269;
+}
 .btn.btn-danger,.panel-danger .panel-heading{
 	background: #b93131;
+}
+.btn.btn-danger:hover {
+background: #e82e2e;
 }
 .btn.btn-success,.panel-success .panel-heading{
 	background: #4A8886;
 }
+.btn.btn-success:hover {
+background: #66c5c2;
+}
 .btn.btn-inverse,.panel-inverse .panel-heading{
 	background: #1e0330;
+	border:1px solid #000;
+}
+.btn.btn-inverse:hover {
+background: #fff;
+color:#000;
+border:1px solid #bbb;
 }
 .btn.btn-info,.panel-info .panel-heading{
 	background: #6A5C9B;
+}
+.btn.btn-info:hover {
+background: #b08fc7;
 }
 .btn:disabled{
 	background:#1e0330;
